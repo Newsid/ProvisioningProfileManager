@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Xcode
+xcuserdata/
+*.xcuserstate
+DerivedData/
+
+# Local build output (scripts/package.sh)
+.build/
+dist/*.dmg
+dist/*.zip
+
+# Planning notes
+PLAN.md
