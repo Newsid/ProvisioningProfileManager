@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		100000000000000000000010 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 100000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 100000000000000000000002;
+			remoteInfo = ProvisioningProfileManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		100000000000000000000004 /* ProvisioningProfileManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProvisioningProfileManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		100000000000000000000005 /* ProvisioningProfileManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProvisioningProfileManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		100000000000000000000006 /* ProvisioningProfileManager */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ProvisioningProfileManager;
+			sourceTree = "<group>";
+		};
+		100000000000000000000007 /* ProvisioningProfileManagerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ProvisioningProfileManagerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10000000000000000000000B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10000000000000000000000E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		100000000000000000000008 = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000006 /* ProvisioningProfileManager */,
+				100000000000000000000007 /* ProvisioningProfileManagerTests */,
+				100000000000000000000009 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		100000000000000000000009 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000004 /* ProvisioningProfileManager.app */,
+				100000000000000000000005 /* ProvisioningProfileManagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		100000000000000000000002 /* ProvisioningProfileManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 100000000000000000000013 /* Build configuration list for PBXNativeTarget "ProvisioningProfileManager" */;
+			buildPhases = (
+				10000000000000000000000A /* Sources */,
+				10000000000000000000000B /* Frameworks */,
+				10000000000000000000000C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				100000000000000000000006 /* ProvisioningProfileManager */,
+			);
+			name = ProvisioningProfileManager;
+			packageProductDependencies = (
+			);
+			productName = ProvisioningProfileManager;
+			productReference = 100000000000000000000004 /* ProvisioningProfileManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		100000000000000000000003 /* ProvisioningProfileManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 100000000000000000000014 /* Build configuration list for PBXNativeTarget "ProvisioningProfileManagerTests" */;
+			buildPhases = (
+				10000000000000000000000D /* Sources */,
+				10000000000000000000000E /* Frameworks */,
+				10000000000000000000000F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				100000000000000000000011 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				100000000000000000000007 /* ProvisioningProfileManagerTests */,
+			);
+			name = ProvisioningProfileManagerTests;
+			packageProductDependencies = (
+			);
+			productName = ProvisioningProfileManagerTests;
+			productReference = 100000000000000000000005 /* ProvisioningProfileManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		100000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					100000000000000000000002 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					100000000000000000000003 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 100000000000000000000002;
+					};
+				};
+			};
+			buildConfigurationList = 100000000000000000000012 /* Build configuration list for PBXProject "ProvisioningProfileManager" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 100000000000000000000008;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 100000000000000000000009 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				100000000000000000000002 /* ProvisioningProfileManager */,
+				100000000000000000000003 /* ProvisioningProfileManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10000000000000000000000C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10000000000000000000000F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10000000000000000000000A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10000000000000000000000D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		100000000000000000000011 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 100000000000000000000002 /* ProvisioningProfileManager */;
+			targetProxy = 100000000000000000000010 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		100000000000000000000015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		100000000000000000000016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		100000000000000000000017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Provisioning Profile Manager";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.newsid.ProvisioningProfileManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		100000000000000000000018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Provisioning Profile Manager";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.newsid.ProvisioningProfileManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		100000000000000000000019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.newsid.ProvisioningProfileManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProvisioningProfileManager.app/Contents/MacOS/ProvisioningProfileManager";
+			};
+			name = Debug;
+		};
+		10000000000000000000001A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.newsid.ProvisioningProfileManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProvisioningProfileManager.app/Contents/MacOS/ProvisioningProfileManager";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		100000000000000000000012 /* Build configuration list for PBXProject "ProvisioningProfileManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				100000000000000000000015 /* Debug */,
+				100000000000000000000016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		100000000000000000000013 /* Build configuration list for PBXNativeTarget "ProvisioningProfileManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				100000000000000000000017 /* Debug */,
+				100000000000000000000018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		100000000000000000000014 /* Build configuration list for PBXNativeTarget "ProvisioningProfileManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				100000000000000000000019 /* Debug */,
+				10000000000000000000001A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 100000000000000000000001 /* Project object */;
+}
